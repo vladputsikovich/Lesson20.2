@@ -13,6 +13,8 @@
 		ED992BA2278215440071719C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED992BA0278215440071719C /* Main.storyboard */; };
 		ED992BA4278215460071719C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED992BA3278215460071719C /* Assets.xcassets */; };
 		ED992BA7278215460071719C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED992BA5278215460071719C /* LaunchScreen.storyboard */; };
+		ED992BAF278218670071719C /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED992BAE278218670071719C /* Team.swift */; };
+		ED992BB1278219020071719C /* ChampionsLeague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED992BB0278219020071719C /* ChampionsLeague.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		ED992BA3278215460071719C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED992BA6278215460071719C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED992BA8278215460071719C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED992BAE278218670071719C /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		ED992BB0278219020071719C /* ChampionsLeague.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsLeague.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				ED992B9A278215440071719C /* AppDelegate.swift */,
 				ED992B9C278215440071719C /* SceneDelegate.swift */,
 				ED992B9E278215440071719C /* ViewController.swift */,
+				ED992BAE278218670071719C /* Team.swift */,
+				ED992BB0278219020071719C /* ChampionsLeague.swift */,
 				ED992BA0278215440071719C /* Main.storyboard */,
 				ED992BA3278215460071719C /* Assets.xcassets */,
 				ED992BA5278215460071719C /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED992BAF278218670071719C /* Team.swift in Sources */,
 				ED992B9F278215440071719C /* ViewController.swift in Sources */,
 				ED992B9B278215440071719C /* AppDelegate.swift in Sources */,
 				ED992B9D278215440071719C /* SceneDelegate.swift in Sources */,
+				ED992BB1278219020071719C /* ChampionsLeague.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
